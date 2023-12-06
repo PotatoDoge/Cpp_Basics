@@ -1,4 +1,7 @@
 #include <iostream>
+#include <cmath>
+
+using namespace std;
 
 int main() {
 
@@ -26,7 +29,11 @@ int main() {
     int subtraction = x-y;
     int division = x/y;
 
-
+    // console in
+    cout << "Enter your name" << endl;
+    string name;
+    cin >> name;
+    cout << "Hello: " << name << endl;
 
     return 0;
 }
